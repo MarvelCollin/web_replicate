@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Showcase</title>
+    <link rel="stylesheet" href="../styles/gallery.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="navbar"></div>
+    
+    <div class="container">
+        <div class="highlighted-car">
+            <div class="carousel">
+                <img class="highlighted-image" src="" alt="Highlighted Car">
+                <button class="next-btn">Next</button>
+            </div>
+            <div class="highlighted-details"></div>
+        </div>
+        <div class="controls">
+            <input type="text" id="search-bar" placeholder="Search for cars...">
+            <select id="items-per-page">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="16">16</option>
+            </select>
+        </div>
+        <div class="car-gallery"></div>
+        <div class="pagination">
+            <button class="prev-btn">Previous</button>
+            <span class="page-info"></span>
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
+    
+    <div id="footer"></div>
+    
+    <div id="image-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    
+    <script src="../controllers/loadComponents.js"></script>
+    <script src="../controllers/gallery-card.js"></script>
+</body>
+</html>

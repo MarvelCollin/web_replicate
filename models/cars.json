@@ -1,0 +1,130 @@
+[
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 1",
+        "price": "$7499",
+        "type": "SPORTS CAR",
+        "description": "This car offers a thrilling drive with its powerful engine and sleek design.",
+        "rating": "4.7"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 2",
+        "price": "$8499",
+        "type": "SEDAN",
+        "description": "A perfect family car with excellent fuel efficiency and comfort.",
+        "rating": "4.8"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 3",
+        "price": "$9499",
+        "type": "SUV",
+        "description": "Ideal for off-road adventures, this SUV combines power and luxury.",
+        "rating": "4.9"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 4",
+        "price": "$6499",
+        "type": "HATCHBACK",
+        "description": "Compact and efficient, perfect for city driving and easy parking.",
+        "rating": "4.6"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 5",
+        "price": "$10599",
+        "type": "CONVERTIBLE",
+        "description": "Enjoy the open air with this stylish and fun convertible.",
+        "rating": "4.5"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 6",
+        "price": "$7999",
+        "type": "COUPE",
+        "description": "A sporty coupe that offers an exciting driving experience.",
+        "rating": "4.4"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 7",
+        "price": "$8999",
+        "type": "PICKUP",
+        "description": "A reliable pickup truck with ample cargo space and towing capacity.",
+        "rating": "4.3"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 8",
+        "price": "$5999",
+        "type": "MINIVAN",
+        "description": "The ultimate family vehicle, offering space, safety, and comfort.",
+        "rating": "4.2"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 9",
+        "price": "$7599",
+        "type": "HYBRID",
+        "description": "Eco-friendly hybrid car with excellent fuel economy and low emissions.",
+        "rating": "4.1"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 10",
+        "price": "$6999",
+        "type": "ELECTRIC",
+        "description": "A cutting-edge electric car with zero emissions and quick acceleration.",
+        "rating": "4.0"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 11",
+        "price": "$8299",
+        "type": "LUXURY SEDAN",
+        "description": "Experience ultimate comfort and advanced features in this luxury sedan.",
+        "rating": "4.9"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 12",
+        "price": "$8899",
+        "type": "CROSSOVER",
+        "description": "A versatile crossover that blends the best of SUVs and hatchbacks.",
+        "rating": "4.8"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 13",
+        "price": "$6799",
+        "type": "SPORTS CAR",
+        "description": "High performance sports car designed for speed and agility.",
+        "rating": "4.7"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 14",
+        "price": "$6199",
+        "type": "SUBCOMPACT",
+        "description": "Small and efficient, perfect for navigating crowded urban areas.",
+        "rating": "4.6"
+    },
+    {
+        "image": "../assets/cars/car1.png",
+        "name": "CAR TYPE 15",
+        "price": "$9599",
+        "type": "ROADSTER",
+        "description": "A sleek and powerful roadster, perfect for weekend drives.",
+        "rating": "4.5"
+    },
+    {
+        "image": "../assets/cars/car2.png",
+        "name": "CAR TYPE 16",
+        "price": "$7799",
+        "type": "WAGON",
+        "description": "A spacious wagon with plenty of room for passengers and cargo.",
+        "rating": "4.4"
+    }
+]
