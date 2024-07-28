@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.width-100vw {
+    width: 100vw;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+.hover-scale {
+    transition: 1s;
+}
+
+.hover-scale:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.gray-scale-0 {
+    filter: grayscale(0%);
+}
+
+.gray-scale-100 {
+    filter: grayscale(100%);
+}

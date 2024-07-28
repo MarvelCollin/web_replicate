@@ -1,0 +1,68 @@
+body {
+    font-family: "Inria Sans", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #E2BBE9;
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.header p {
+    color: #555;
+    font-size: 18px;
+}
+
+.main-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.car-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.car-gallery img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.bottom-section {
+    background-color: #5A639C;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bottom-section .stat {
+    text-align: center;
+}
+
+.bottom-section .stat img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.bottom-section .stat p {
+    margin: 0;
+    font-size: 18px;
+}
