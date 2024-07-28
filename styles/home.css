@@ -1,68 +1,101 @@
 body {
-    font-family: "Inria Sans", sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
+  font-family: "Inria Sans", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    padding: 20px;
+  padding: 20px;
 }
 
 .header {
-    text-align: left;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 30px;
+  padding: 0px 250px;
 }
 
 .header h1 {
-    color: #E2BBE9;
-    font-size: 48px;
-    margin: 10px 0;
+  color: #e2bbe9;
+  font-size: 60px;
+  margin: 10px 0;
 }
 
 .header p {
-    color: #555;
-    font-size: 18px;
+  color: #555;
+  font-size: 24px;
+}
+
+.title {
+    width: 70vw;
 }
 
 .main-image img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
 }
 
 .car-gallery {
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
 }
 
 .car-gallery img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .bottom-section {
-    background-color: #5A639C;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #5a639c;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .bottom-section .stat {
-    text-align: center;
+  text-align: center;
 }
 
 .bottom-section .stat img {
-    width: 50px;
-    margin-bottom: 10px;
+  width: 50px;
+  margin-bottom: 10px;
 }
 
 .bottom-section .stat p {
-    margin: 0;
-    font-size: 18px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.carousel {
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-container img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 0;
+  border-right: 2px solid #ddd;
+}
+
+.carousel-container img:last-child {
+  border-right: none;
 }

@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="../styles/home.css" />
+    <script src="../controllers/loadComponents.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
   <body>
+    <div id="navbar"></div>
+
     <div class="container">
       <div class="header">
-        <p>Lorem ipsum dolor sit amet</p>
-        <h1>Consectetur Adipi, Velit Dolore.</h1>
-        <p>
-          Dolores commodi explicabo, eveniet possimus adipisci voluptates minus
-          dolor cupiditate neque
-        </p>
-      </div>
-      <div class="main-image">
-        <img src="../assets/cars/car1.png" alt="Main Car Image" />
+        <div class="title">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h1>Consectetur Adipi, Velit Dolore.</h1>
+          <p>
+            Dolores commodi explicabo, eveniet possimus adipisci voluptates
+            minus dolor cupiditate neque
+          </p>
+        </div>
+        <div class="carousel">
+          <div class="carousel-container">
+            <img src="../assets/cars/car1.png" alt="Main Car Image" />
+            <img src="../assets/cars/car2.png" alt="Main Car Image" />
+            <img src="../assets/cars/car3.webp" alt="Main Car Image" />
+          </div>
+        </div>
       </div>
       <div class="car-gallery">
         <img src="../assets/cars/car1.png" alt="Car Image 1" />
@@ -41,5 +51,9 @@
         </div>
       </div>
     </div>
+
+    <div id="footer"></div>
+    <script src="../controllers/carousel.js"></script>
+    <script src="../controllers/connector.js" defer></script>
   </body>
 </html>
